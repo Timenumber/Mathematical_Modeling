@@ -24,10 +24,10 @@ def calculate(r):
     return -float(gam)
 
 
-step = 100.0
-point = 36000.0
+step = 5.0
+point = 37130.0
 former = -calculate(point)
-dec_rate = 0.5
+dec_rate = 0.8
 
 
 while abs(step) > 0.00001:
