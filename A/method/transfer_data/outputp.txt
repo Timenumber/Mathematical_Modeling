@@ -1,1 +1,0 @@
-NIntegrate[gamma0*Derivative[1][q][t]^2, {t, 60, 100}]/60
